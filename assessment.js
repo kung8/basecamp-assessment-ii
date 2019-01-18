@@ -5,7 +5,11 @@
  * Assign the keys the appropriate values.
  */
 
-// CODE HERE
+var me = {
+  firstname: "Kevin",
+  age: 25,
+  state:"Utah"
+}
 
 /**
  * #2
@@ -14,7 +18,7 @@
  * The new key should be 'faveColor'. Set it to your favorite color as a string.
  */
 
-// CODE HERE
+me.faveColor = "blue"
 
 /**
  * #3
@@ -29,7 +33,7 @@ var message = {
   userName: me.firstname
 };
 // DON'T TOUCH THE CODE ABOVE
-// CODE HERE
+message.text = "Cory Johnson rocks as an instructor!"
 
 /**
  * #4
@@ -39,7 +43,10 @@ var message = {
  * downVote() should take in a number, subtract one from it, and return the number.
  */
 
-// CODE HERE
+var adjustCount = {
+  upVote: function (num1){return num1+1},
+  downVote: function (num2){return num2-1}
+}
 
 /**
  * #5
@@ -47,7 +54,7 @@ var message = {
  * Create an array called 'myFriends' with four of your friends names.
  */
 
-// CODE HERE
+var myFriends = ["Justin","Aldin","Nathaniel","Ian"];
 
 /**
  * #6
@@ -55,7 +62,7 @@ var message = {
  * Add a fifth friends name to the end of your 'myFriends' array.
  */
 
-// CODE HERE
+myFriends.push = "Jacob"
 
 /**
  * #7
@@ -67,7 +74,7 @@ var message = {
 // DON'T TOUCH THE CODE BELOW
 var myArray = [1, 2, 3, 4];
 // DON'T TOUCH THE CODE ABOVE
-// CODE HERE
+var myArrayCopy = myArray;
 
 /**
  * #8
@@ -80,7 +87,10 @@ var myArray = [1, 2, 3, 4];
 var myNumbers = [333, 1, 4, 5, 511, 34, 88, 77, 222];
 //DON'T TOUCH THE CODE ABOVE
 function evensOnly() {
-  // CODE HERE
+  for (i=0;i<myNumbers.length;i++){
+    if (myNumber[i]%2 = 0){
+      return myNumber[i]=evensOnly.push()}
+    else{return false}
 }
 
 /**
@@ -90,7 +100,8 @@ function evensOnly() {
  * Assign it to a variable called 'trueFriends'.
  */
 
-// CODE HERE
+var trueFriends = peopleIknow.filter(function(friend,i,peopleIknow){return friend = true};
+
 var peopleIknow = [
   { name: "Steve", friend: true },
   { name: "Dan", friend: false },
@@ -110,3 +121,8 @@ var peopleIknow = [
  */
 
 let randomNumbers = [1, 3453, 34, 456, 32, 3, 2, 0];
+
+function indexFinder (randomNumbers){
+  for (i=0;i<randomNumbers.length;i++){return randomNumbers.indexOf()}
+  var indexes = randomNumbers.indexOf();
+};
